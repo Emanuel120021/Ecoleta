@@ -1,0 +1,26 @@
+{
+  "name": "NLW",
+  "version": "1.0.0",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "nodemon scr/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Emanuel120021/NLW.git"
+  },
+  "author": "Emanuel L. P. Campos",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Emanuel120021/NLW/issues"
+  },
+  "homepage": "https://github.com/Emanuel120021/NLW#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "nunjucks": "^3.2.1",
+    "sqlite3": "^4.2.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
